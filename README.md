@@ -1,0 +1,1 @@
+# cms-ars-3.1-moderate-oracle-java-runtime-environment-7-stig-overlay
