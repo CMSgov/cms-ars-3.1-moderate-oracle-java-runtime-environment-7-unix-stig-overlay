@@ -1,3 +1,0 @@
-# description: 'Set to true if this system is on the SIPRNET'
-# type: boolean
-is_on_siprnet: false
