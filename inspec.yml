@@ -9,7 +9,7 @@ version: 0.1.0
 
 depends:
 - name: oracle-java-runtime-environment-7-unix-stig-baseline
-  path: oracle-java-runtime-environment-7-unix-stig-baseline
+  path: ../oracle-java-runtime-environment-7-unix-stig-baseline
 
 attributes:
   - name: is_on_siprnet
