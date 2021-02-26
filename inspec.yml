@@ -1,18 +1,20 @@
 name: cms-ars-3.1-moderate-oracle-java-runtime-environment-7-unix-stig-overlay
-title: .
+title: cms-ars-3.1-moderate-oracle-java-runtime-environment-7-unix-stig-overlay
 maintainer: CMS InSpec Dev Team
 copyright: .
 copyright_email: 
 license: Apache-2.0
-summary: .
-version: 0.1.0
+summary: "CMS ARS 3.1 Moderate Overlay InSpec Validation Profile for Oracle Java Runtime Environment 7 STIG"
+version: 1.6.0
+inspec_version: ">= 4.0"
 
 depends:
 - name: oracle-java-runtime-environment-7-unix-stig-baseline
-  path: ../oracle-java-runtime-environment-7-unix-stig-baseline
+  url: https://github.com/mitre/oracle-java-runtime-environment-7-unix-stig-baseline/archive/master.tar.gz
 
-attributes:
+inputs:
   - name: is_on_siprnet
     description: 'Set to true if this system is on the SIPRNET'
     type: boolean
-    default: false
+    value: false
+    profile: oracle-java-runtime-environment-7-unix-stig-baseline
